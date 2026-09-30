@@ -11,3 +11,18 @@ One surprising finding was that the pagination logic skipped the first page beca
 ## Questions I would ask before shipping to production
 
 Before shipping this API to production, I would ask about the expected persistence/database solution, authentication and authorization requirements, the expected behavior when reassigning an already-assigned task, pagination limits, and the required error-handling contrac
+
+## Test Results
+
+- Test Suites: 2 passed
+- Tests: 39 passed
+- Statement Coverage: 96%
+- Branch Coverage: 92.68%
+- Function Coverage: 93.33%
+- Line Coverage: 95.58%
+
+Commands used:
+
+```bash
+npm test
+npm run coverage
